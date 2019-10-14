@@ -93,7 +93,7 @@ import CommuB.CommuDTO;
 			
 			ArrayList<CommuDTO> commuList = new ArrayList<CommuDTO>();
 			
-			String sql = "select id, writehead, writer, writeDate, writetext from AccountTransfer";
+			String sql = "select id, writehead, writer, writeDate, writetext from Commu";
 
 			try {
 				
